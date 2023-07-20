@@ -12,7 +12,7 @@ imgSize = 300
 
 counter = 0
 
-labels = ["A","B", "C", "D", "E","G","M","P","Q","S","V", "W", "Y", "Z"]
+labels = ["A","B", "C", "D", "E","F","G","M","P","Q","S","V", "W", "Y", "Z"]
 while True:
     success, img = cap.read()
     imgOutput = img.copy()
